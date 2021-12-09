@@ -45,5 +45,5 @@ def model_prediction():
     return render_template('test1copy.html', pred=salary[0][0], selections=langs, yearsCoding=years)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
