@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Can we guess how much a coder will make?</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="static/teststyle.css">
+  </head>
+
+  <body style="background-color:  rgb(255, 255, 255)">
+
+    <div class="p-2">
+      <form method="POST" action="/">
+
+        <div class = "container-md">
+          <div class="row">
+            <div class="col-md-12 jumbotron text-center">
+              <h1>Team America Looks at StackOverflow Survey Data! </h1>
+              <h1>Part II</h1>
+              <div class="row justify-content-center">
+                <div class = "col-8">You may remember us from other project we did, such as, 
+                  "Does rain affect a Quarterbacks ability to Quarterback?", "Look Who's Winning All the Gold?", 
+                  and "Team America Looks at StackOverflow Data!" Today we bring you the long-anticipated sequel of 
+                  “Team America Looks at StackOverflow Data!” where we once again look at StackOverflow data, but also, 
+                  and here comes the twist, we make machines look at it and then make them answer us a question. 
+                  Though not just any question, THE question, the only question worth asking, and it’s nothing to do with 
+                  all that meaning of life, why are we here, are we alone in the universe nonsense. No, no, no my friends. 
+                  We are asking an altogether more profound question. 
+                </div>                 
+              </div>
+              <br>
+              <div class="row justify-content-center">
+                <label class = "mainQuestion">How Much Money Can I Make?</label>
+              </div>
+            </div>      
+          </div>
+        </div>
+          <div class="body">
+          <div class = "row">
+            <div class = "col-md-8">
+              <label class = "question">Which Of The Bellow Do You Have Experience In?</label>
+                <div class = "row">
+                  <div class = "col-md-3">
+                    <label class="container">AWS<input type="checkbox" name="checkbox"  value="AWS" {{'checked="checked"' if ("AWS" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Bash/Shell<input type="checkbox" name="checkbox"  value="Bash/Shell" {{'checked="checked"' if ("Bash/Shell" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">C++<input type="checkbox" name="checkbox"  value="C++" {{'checked="checked"' if ("C++" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">COBOL<input type="checkbox" name="checkbox"  value="COBOL" {{'checked="checked"' if ("COBOL" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Cassandra<input type="checkbox" name="checkbox"  value="Cassandra" {{'checked="checked"' if ("Cassandra" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Clojure<input type="checkbox" name="checkbox"  value="Clojure" {{'checked="checked"' if ("Clojure" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Crystal<input type="checkbox" name="checkbox"  value="Crystal" {{'checked="checked"' if ("Crystal" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Delphi<input type="checkbox" name="checkbox"  value="Delphi" {{'checked="checked"' if ("Delphi" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Django<input type="checkbox" name="checkbox"  value="Django" {{'checked="checked"' if ("Django" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Drupal<input type="checkbox" name="checkbox"  value="Drupal" {{'checked="checked"' if ("Drupal" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">DynamoDB<input type="checkbox" name="checkbox"  value="DynamoDB" {{'checked="checked"' if ("DynamoDB" in selections ) else "" }}/><span class="checkmark"></span></label>
+     
+                  </div>
+                  <div class = "col-md-3">
+                  <label class="container">Elasticsearch<input type="checkbox" name="checkbox"  value="Elasticsearch" {{'checked="checked"' if ("Elasticsearch" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">Flask<input type="checkbox" name="checkbox"  value="Flask" {{'checked="checked"' if ("Flask" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">Flow<input type="checkbox" name="checkbox"  value="Flow" {{'checked="checked"' if ("Flow" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">Git<input type="checkbox" name="checkbox"  value="Git" {{'checked="checked"' if ("Git" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">Go<input type="checkbox" name="checkbox"  value="Go" {{'checked="checked"' if ("Go" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">Google Cloud Platform<input type="checkbox" name="checkbox"  value="Google Cloud Platform" {{'checked="checked"' if ("Google Cloud Platform" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">Hadoop<input type="checkbox" name="checkbox"  value="Hadoop" {{'checked="checked"' if ("Hadoop" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">Java<input type="checkbox" name="checkbox"  value="Java" {{'checked="checked"' if ("Java" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">JavaScript<input type="checkbox" name="checkbox"  value="JavaScript" {{'checked="checked"' if ("JavaScript" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">Kubernetes<input type="checkbox" name="checkbox"  value="Kubernetes" {{'checked="checked"' if ("Kubernetes" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  <label class="container">LISP<input type="checkbox" name="checkbox"  value="LISP" {{'checked="checked"' if ("LISP" in selections ) else "" }}/><span class="checkmark"></span></label>
+                  </div>
+
+                  <div class = "col-md-3">
+                    <label class="container">MariaDB<input type="checkbox" name="checkbox"  value="MariaDB" {{'checked="checked"' if ("MariaDB" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Microsoft Azure<input type="checkbox" name="checkbox"  value="Microsoft Azure" {{'checked="checked"' if ("Microsoft Azure" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Node.js<input type="checkbox" name="checkbox"  value="Node.js" {{'checked="checked"' if ("Node.js" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Oracle<input type="checkbox" name="checkbox"  value="Oracle" {{'checked="checked"' if ("Oracle" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">PHP<input type="checkbox" name="checkbox"  value="PHP" {{'checked="checked"' if ("PHP" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Pandas<input type="checkbox" name="checkbox"  value="Pandas" {{'checked="checked"' if ("Pandas" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Perl<input type="checkbox" name="checkbox"  value="Perl" {{'checked="checked"' if ("Perl" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">PowerShell<input type="checkbox" name="checkbox"  value="PowerShell" {{'checked="checked"' if ("PowerShell" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Python<input type="checkbox" name="checkbox"  value="Python" {{'checked="checked"' if ("Python" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">Qt<input type="checkbox" name="checkbox"  value="Qt" {{'checked="checked"' if ("Qt" in selections ) else "" }}/><span class="checkmark"></span></label>
+                    <label class="container">React.js<input type="checkbox" name="checkbox"  value="React.js" {{'checked="checked"' if ("React.js" in selections ) else "" }}/><span class="checkmark"></span></label>
+
+                  </div>
+                  <div class = "col-md-3">
+                    <label class="container">Redis<input type="checkbox" name="checkbox"  value="Redis" {{'checked="checked"' if ("Redis" in selections ) else "" }}/><span class="checkmark"></span></label>
+                      <label class="container">Ruby on Rails<input type="checkbox" name="checkbox"  value="Ruby on Rails" {{'checked="checked"' if ("Ruby on Rails" in selections ) else "" }}/><span class="checkmark"></span></label>
+                      <label class="container">Rust<input type="checkbox" name="checkbox"  value="Rust" {{'checked="checked"' if ("Rust" in selections ) else "" }}/><span class="checkmark"></span></label>
+                      <label class="container">Scala<input type="checkbox" name="checkbox"  value="Scala" {{'checked="checked"' if ("Scala" in selections ) else "" }}/><span 
+                      class="checkmark"></span></label>
+                      <label class="container">Swift<input type="checkbox" name="checkbox"  value="Swift" {{'checked="checked"' if ("Swift" in selections ) else "" }}/><span 
+                      class="checkmark"></span></label>
+                      <label class="container">Terraform<input type="checkbox" name="checkbox"  value="Terraform" {{'checked="checked"' if ("Terraform" in selections ) else "" }}/><span class="checkmark"></span></label>
+                      <label class="container">TypeScript<input type="checkbox" name="checkbox"  value="TypeScript" {{'checked="checked"' if ("TypeScript" in selections ) else "" }}/><span class="checkmark"></span></label>
+                      <label class="container">Unity 3D<input type="checkbox" name="checkbox"  value="Unity 3D" {{'checked="checked"' if ("Unity 3D" in selections ) else "" }}/><span class="checkmark"></span></label>
+                      <label class="container">Vue.js<input type="checkbox" name="checkbox"  value="Vue.js" {{'checked="checked"' if ("Vue.js" in selections ) else "" }}/><span class="checkmark"></span></label>
+                      <label class="container">Xamarin<input type="checkbox" name="checkbox"  value="Xamarin" {{'checked="checked"' if ("Xamarin" in selections ) else "" }}/><span class="checkmark"></span></label>
+                      <label class="container">jQuery<input type="checkbox" name="checkbox"  value="jQuery" {{'checked="checked"' if ("jQuery" in selections ) else "" }}/><span class="checkmark"></span></label>
+
+                  </div>
+    
+                </div>
+
+                <div>
+
+                  <label class = "question">How Long Have You Been Coding Proffesionally?</label>
+                  <div class = "yearsExp">
+                    <div class="form-group">
+                      <input type="number" name="CodingPro" placeholder="Years Coding Proffesionally" 
+                       style="max-width:300px;" value="{{yearsCoding}}"/>
+                    </div>
+                    <div>
+                      <input type="submit">
+                    </div>
+                  </div>
+
+                </div>
+            
+            </div>
+            <div class = "col-md-4">
+              <a>
+                <div class="col-md-12 jumbotron text-center">
+                  {% if pred  %}
+                  <h3>Your Predicted Salary:</h3>
+                  <h3>{{"${:,.2f}".format(pred)}}</h3>
+                  {% endif %}
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  
+  <footer class="footer">
+    <div class="container-ft">
+      <div class="col-md-12">
+        <div class="row">
+        <div class="col-md-2">
+          <div class="teamTitle">
+            <br>
+            <label>Created by:</label>
+          </div>
+          <div class="team">
+            <label>Nick Blaul
+              <br>Seara Clayborn
+              <br>Elizabeth Labno
+              <br>Dan Pranjic
+              <br>Bob Verner
+            </label>
+          </div>
+        </div>
+        <!-- <div class="col-md-2">
+          <div class="teamTitle">
+            <br>
+            <label>Powered By:</label>
+          </div>
+          <div class="team">
+            <label>Python
+              <br>Heroku
+              <br>GitHub
+              <br>StackOverflow
+              <br>Coffee
+            </label>
+          </div>
+        </div> -->
+      </div>
+      </div>
+   </div>
+  </footer>
+
+</html>
+
+<!--Normally these medium columns go full wide 
+  
+  cloudiness 
+  https://raw.githubusercontent.com/danpranjic/python-api-challenge/main/pandas%20api%20hw/lat%20cloudiness.png
+
+  humidity
+  https://raw.githubusercontent.com/danpranjic/python-api-challenge/main/pandas%20api%20hw/lat%20humidity.png
+
+  temperature
+  https://raw.githubusercontent.com/danpranjic/python-api-challenge/main/pandas%20api%20hw/lat%20temp.png
+
+  wind speed
+  https://raw.githubusercontent.com/danpranjic/python-api-challenge/main/pandas%20api%20hw/lat%20wind.png
+  
+  on small screen sizes-->
