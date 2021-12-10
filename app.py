@@ -4,21 +4,9 @@ import pandas as pd
 import tensorflow as tf
 from templates.headers import headers
 
-# import pickle
-# import numpy as np
-# from sklearn.linear_model import LogisticRegression
-# from sklearn.model_selection import train_test_split
-# import pandas as pd
-
-
 app = Flask(__name__)
 
 model = tf.keras.models.load_model('dnn_model/.')
-
-# @app.route('/')
-# def my_form():
-    
-#     return render_template('test1.html')
 
 @app.route('/', methods=['POST', 'GET'])
 def model_prediction():
